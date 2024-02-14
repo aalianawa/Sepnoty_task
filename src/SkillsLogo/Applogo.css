@@ -1,0 +1,33 @@
+.containe {
+    background-color: rgba(223, 227, 240, 1);
+    border-radius: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.A-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.A-container > img {
+    width: 100px; 
+    border-right: 3px solid #b9b8b8; 
+    /* padding-right: 10px !important;  */
+}
+
+
+.A-container > img:last-child {
+    border-right: none; 
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .A-container > img {
+        width: 80px;
+        padding-right: 5px !important; 
+    }
+}

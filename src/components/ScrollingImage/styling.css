@@ -1,0 +1,17 @@
+.wrapper{
+    background: rgb(13, 13, 24) ;
+
+}
+.shadow-image{
+    background: url('../../assets/images/pattern.png');
+    margin-left: 10px !important;
+}
+.leading{
+    color: rgba(183, 182, 189, 1);
+    font-size: 24px;
+    
+}
+.featurette-heading{
+    color: rgba(76, 100, 178, 1);
+    font-size: 40px;
+}
